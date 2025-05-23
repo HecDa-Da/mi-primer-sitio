@@ -2,18 +2,47 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <title>Mi Primera Página Web</title>
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio de Daniel</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>¡Hola Mundo!</h1>
-  <p>Este es mi primer archivo HTML.</p>
-  <h1>Bienvenido a mi primer sitio web</h1>
-  <p>Este texto fue agregado después del primer deploy.</p>
+  <header>
+    <h1>Daniel | Maestro en Finanzas, Desarrollador de Software</h1>
+    <nav>
+      <ul>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <button onclick="saludar()">Haz clic aquí</button>
-  
+  <main>
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>Soy un entusiasta del desarrollo web aprendiendo HTML, CSS y JavaScript. Este sitio muestra algunos de mis primeros proyectos y aprendizajes.</p>
+    </section>
+
+    <section id="proyectos">
+      <h2>Proyectos</h2>
+      <ul>
+        <li><strong>Mi primer sitio web:</strong> Sitio estático creado con HTML y CSS. <a href="#">Ver proyecto</a></li>
+        <li><strong>To-Do App (en proceso):</strong> App interactiva usando JavaScript. <a href="#">Ver repositorio</a></li>
+      </ul>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Puedes escribirme a: <a href="mailto:mtzgzzdaniel@gmail.com">mtzgzzdaniel@gmail.com</a></p>
+      <p>O visitar mi <a href="https://github.com/HecDa-Da">GitHub</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Daniel. Todos los derechos reservados.</p>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
